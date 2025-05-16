@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #674A7A;
+       }
+        header, footer {
+            background-color: #6D42A5;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+			margin-left: 800px; /* <---trying to push main content to the right. Won't work.*/
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #E8D6EA;
+            overflow: hidden;
+            position: relative;
+        }
+
+/*NAVBAR STUFF--->*/
+		nav {
+    		position: fixed;
+    		top: 50%;
+    		left: 0;
+    		transform: translateY(-50%);
+    		background-color: #fff;
+    		padding: 20px;
+    		width: 80px;
+    		height: auto;
+    		box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    		z-index: 1000;
+}
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin-bottom: 10px;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #666;
+        }
+/*<---NAVBAR STUFF*/
